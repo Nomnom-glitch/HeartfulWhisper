@@ -38,7 +38,7 @@ Konten teks ini kemudian dapat diperkaya dengan visualisasi animasi yang merepre
 
  2. Kustomisasi Karakter 2D
 
-Platform menyediakan fitur pembuatan karakter digital dengan tingkat personalisasi yang tinggi, menyerupai konsep pada ZEPETO, Gacha Life, dan Picrew.
+Platform menyediakan fitur pembuatan karakter digital dengan tingkat personalisasi yang tinggi.
 
 Pengguna dapat:
 
@@ -50,7 +50,7 @@ Karakter ini berfungsi sebagai representasi visual dari identitas atau cerita pe
 
  3. Sistem Animasi Sederhana
 
-Platform menyediakan fitur animasi yang mudah digunakan, dengan pendekatan yang menyerupai aplikasi seperti Alight Motion.
+Platform menyediakan fitur animasi yang mudah digunakan.
 
 Fitur ini memungkinkan pengguna untuk:
 
@@ -71,7 +71,7 @@ Karakter dapat:
 
  5. Fitur Sosialisasi (“Whispering Feature”)
 
-Platform menyediakan fitur komunikasi antar pengguna yang disebut sebagai “whispering feature”, dengan konsep serupa pada Discord.
+Platform menyediakan fitur komunikasi antar pengguna yang disebut sebagai “whispering feature”.
 
 Fitur ini memungkinkan:
 
@@ -84,6 +84,10 @@ Untuk meningkatkan pengalaman pengguna (UX), platform menyediakan berbagai opsi 
 
 * Desain chat bubble
 * Avatar profil
+* Blog editing
+* video editing
+* desain background
+* font
 * Tampilan profil pengguna
 * Visual karakter yang dapat dilihat oleh pengguna lain
 
@@ -99,5 +103,3 @@ Platform ini dirancang untuk:
 
 ## Link Website 
 https://link-Website -hasil-deploy
-# HeartfulWhisper
-Sharing Storie
