@@ -1,0 +1,332 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background:#faf8f5;
+  color:#2b2118;
+}
+
+/* ================= NAVBAR ================= */
+nav{
+  position:fixed;
+  width:100%;
+  padding:20px 60px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  transition:0.4s;
+  z-index:999;
+}
+
+nav.scrolled{
+  background:white;
+  box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+nav ul{
+  display:flex;
+  gap:30px;
+  list-style:none;
+}
+
+nav a{
+  text-decoration:none;
+  color:#2b2118;
+  font-weight:500;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 60px;
+}
+
+.logo{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.logo img{
+  width:45px;
+  height:45px;
+  border-radius:50%;
+  object-fit:cover;
+}
+
+/* ================= HERO ================= */
+
+.hero{
+  min-height:100vh;
+  padding:120px 20px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+    /* BACKGROUND */
+  background-image:url("assets/1000067531.png");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+.hero h1{
+  font-size:48px;
+  margin-bottom:20px;
+  color:white;
+
+}
+
+.subtitle{
+  opacity:.7;
+  margin-bottom:30px;
+  color:white;
+}
+
+.join-btn{
+  padding:15px 30px;
+  border:none;
+  background:black;
+  color:white;
+  border-radius:30px;
+  cursor:pointer;
+  transition:.3s;
+}
+
+.join-btn:hover{
+  transform:scale(1.05);
+}
+
+/* ================= ABOUT ================= */
+.section-title{
+  text-align:center;     /* bikin di tengah */
+  font-size:36px;
+  margin-bottom:45px;    /* jarak ke bawah */
+
+}
+
+
+.about,
+.content{
+  padding:100px 80px;
+}
+.about-container{
+  max-width:800px;
+  margin:auto;
+}
+.about{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;   /* center horizontal */
+  align-items:center;       /* center vertical */
+  text-align:center;        /* teks rata tengah */
+  padding:60px 20px;
+  color: white;
+
+    /* BACKGROUND GAMBAR */
+  background-image: url("assets/duh.png");
+  background-size: cover;        /* full nutup */
+  background-position: center;   /* posisi tengah */
+  background-repeat: no-repeat;
+
+  padding:60px 20px;
+}
+
+.about-grid{
+  position:relative;
+  max-width:700px;
+  margin:40px auto;
+  display:grid;
+  gap:15px;
+}
+
+
+
+.about-deco{
+  position:absolute;
+  width:420px;
+  height:420px;
+
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:center;
+
+  opacity:0.9;
+  z-index:1;
+}
+
+/* kiri */
+.about-deco.left{
+  left:-80px;
+  bottom: -750px;
+  background-image:url("assets/sarah.png");
+}
+
+/* kanan */
+.about-deco.right{
+  right:-40px;
+  bottom: -750px;
+  background-image:url("assets/beni.png");
+}
+
+
+/* ================= CONTENT ================= */
+
+.content{
+  padding:100px 60px;
+      /* BACKGROUND GAMBAR */
+  background-image: url("assets/content-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.card-container{
+  display:flex;
+  grid-template-columns:repeat(4,1fr);
+  gap:30px;
+  margin-top:40px;
+}
+
+.card{
+  height:420px;        /* samakan tinggi */
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  text-align:center;
+}
+
+.card-images{
+  height:300px;        /* area gambar sama semua */
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+
+.card-images img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:15px;
+}
+
+/* card 1 dua gambar */
+.two-img{
+  display:flex;
+  gap:10px;
+  height:100%;
+}
+
+.two-img img{
+  width:50%;
+  height:100%;
+}
+.card h3{
+  font-size:18px;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+}
+
+/* ================= PREVIEW ================= */
+
+#preview{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.9);
+  display:none;
+  justify-content:center;
+  align-items:center;
+}
+
+#preview img{
+  max-width:80%;
+  max-height:80%;
+}
+
+#preview span{
+  position:absolute;
+  top:40px;
+  right:50px;
+  color:white;
+  font-size:30px;
+  cursor:pointer;
+}
+
+/* ================= CONTACT ================= */
+
+.contact{
+  padding:150px 60px;
+  text-align:center;
+
+
+
+  /* BACKGROUND GAMBAR */
+  background-image:url("assets/contact-bg.png");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+
+  position:relative;
+}
+
+.contact-form{
+  max-width:600px;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+  padding:15px;
+  border-radius:10px;
+  border:1px solid #ccc;
+}
+
+textarea{
+  height:150px;
+}
+
+.contact-form button{
+  background:black;
+  color:white;
+  padding:15px;
+  border:none;
+  border-radius:30px;
+  cursor:pointer;
+}
+
+.join-btn{
+  background:linear-gradient(135deg,#7a3fff,#aa59fa);
+  color:white;
+  border:none;
+  padding:10px 18px;
+  border-radius:25px;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.join-btn:hover{
+  opacity:0.9;
+}
+
+.auth-box{
+  background:#f2f2ff;
+  padding:40px;
+  border-radius:20px;
+  width:300px;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
