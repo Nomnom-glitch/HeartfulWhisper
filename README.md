@@ -103,3 +103,4 @@ Platform ini dirancang untuk:
 
 ## Link Website 
 [https://link-Website -hasil-deploy](https://nomnom-glitch.github.io/HeartfulWhisper/)
+http://heartfulwhispers.my.id/
