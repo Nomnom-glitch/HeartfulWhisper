@@ -102,4 +102,4 @@ Platform ini dirancang untuk:
 * Mendukung kreativitas pengguna melalui alat yang mudah diakses
 
 ## Link Website 
-https://link-Website -hasil-deploy
+[https://link-Website -hasil-deploy](https://nomnom-glitch.github.io/HeartfulWhisper/)
